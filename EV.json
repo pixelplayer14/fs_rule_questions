@@ -1,0 +1,1287 @@
+{
+    "content": null,
+    "id": "root",
+    "subsections": [
+        {
+            "content": "EV 1 D EFINITIONS",
+            "id": "EV1",
+            "subsections": [
+                {
+                    "content": " Tractive System",
+                    "id": "EV1.1",
+                    "subsections": [
+                        {
+                            "content": " Tractive System (TS) \u2013 every part that is electrically connected to the motors and TSaccumulators.",
+                            "id": "EV1.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS enclosures \u2013 every housing or enclosure that contains parts of the TS.",
+                            "id": "EV1.1.2",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Electric",
+                    "id": "EV1.2",
+                    "subsections": [
+                        {
+                            "content": " Galvanic Isolation \u2013 two electric circuits are defined as galvanically isolated if all of thefollowing conditions are true:\u2022The resistance between both circuits is \u2265500\u2126/V, related to the maximum TS voltageof the vehicle, at a test voltage of maximum TS voltage or 250 V , whichever is higher.\u2022The isolation test voltage RMS, AC for 1 min , between both circuits is higher thanthree times the maximum TS voltage or 750 V, whichever is higher.\u2022 The working voltage of the isolation barrier is higher than the maximum TS voltage.",
+                            "id": "EV1.2.1",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 2 E LECTRIC POWERTRAIN",
+            "id": "EV2",
+            "subsections": [
+                {
+                    "content": " Motors",
+                    "id": "EV2.1",
+                    "subsections": [
+                        {
+                            "content": " Only electric motors are allowed.",
+                            "id": "EV2.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Motor attachments must follow T10.",
+                            "id": "EV2.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Motor casings must follow T7.3.",
+                            "id": "EV2.1.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The motor(s) must be connected to the accumulator through a motor controller.",
+                            "id": "EV2.1.4",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Power Limitation",
+                    "id": "EV2.2",
+                    "subsections": [
+                        {
+                            "content": " The TS power at the outlet of the TSAC must not exceed 80 kW.",
+                            "id": "EV2.2.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Regenerating energy is allowed and unrestricted.",
+                            "id": "EV2.2.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Wheels must not be spun in reverse.",
+                            "id": "EV2.2.3",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 3 G ENERAL REQUIREMENTS",
+            "id": "EV3",
+            "subsections": [
+                {
+                    "content": " Grounding",
+                    "id": "EV3.1",
+                    "subsections": [
+                        {
+                            "content": " TS enclosures, see EV1.1.2, must consist of either\u2022a grounded solid layer made of at least 0.5 mm thick electrically conductive material,aluminium or better, having a resistance below 300 m\u2126, measured with a current of1 A, to LVS ground and able to continuously carry at least 10 % of the TS accumulatormain fuse current rating or\u2022be fully made out of electrically insulating materials having an isolation resistanceof at least 2 M\u2126, measured with a voltage of 500 V . The enclosure must be rigid andmust prevent possible mechanical penetrations. Protruding electrically conductiveparts, such as fasteners or connectors, must follow EV3.1.2The TSAC might use at least 0 .9 mm thick steel layer as the grounded layer.",
+                            "id": "EV3.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Electrically conductive seat, driver harness, and firewall mounting points as well as thealuminium layer of the TS firewall, see T4.8, and the LVS ground measuring point, see EV4 .7.8, must have a resistance below 300 m\u2126, measured with a current of 1 A, to LVSground and be able to continuously carry at least 10 % of the TS accumulator main fusecurrent rating.",
+                            "id": "EV3.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Parts of the vehicle which are or may become electrically conductive within 100 mm of anyTS component must have a resistance below 100 \u2126to LVS ground.",
+                            "id": "EV3.1.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The rotating part of the wheels does not need to be grounded.",
+                            "id": "EV3.1.4",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Overcurrent Protection",
+                    "id": "EV3.2",
+                    "subsections": [
+                        {
+                            "content": " All electrical systems must have appropriate overcurrent protection.",
+                            "id": "EV3.2.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The continuous current rating of the overcurrent protection must not be greater than thecontinuous current rating of any electrical component, for example, wire, busbar, or otherconductors that it protects. I.e. if multiple pins of a connector are used to carry currents inparallel, each pin must be appropriately protected.",
+                            "id": "EV3.2.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All used fuses must have an interrupt current rating that is higher than the theoretical shortcircuit current of the system that it protects.",
+                            "id": "EV3.2.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All overcurrent protection devices must be rated for the highest voltage in the systems theyprotect. All devices used must be rated for DC.",
+                            "id": "EV3.2.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All overcurrent protection devices that are part of the TS must not rely on programmablelogic. The overcurrent protection function of motor controllers/inverters for the motor outputsmay rely on programmable logic.",
+                            "id": "EV3.2.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The overcurrent protection must be designed for the expected surrounding temperature rangebut at least for 0\u25e6C to 85\u25e6C",
+                            "id": "EV3.2.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TS high current path through the accumulator(s) must be fused.",
+                            "id": "EV3.2.7",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 4 T RACTIVE SYSTEM",
+            "id": "EV4",
+            "subsections": [
+                {
+                    "content": " General Requirements",
+                    "id": "EV4.1",
+                    "subsections": [
+                        {
+                            "content": " The maximum permitted voltage that may occur between any two electrical connections is600 VDC and for motor controller/inverters internal low power control signals 630 VDC.",
+                            "id": "EV4.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All components in the TS must be rated for the maximum TS voltage.The TS area of a PCB, see EV4 .3.6, is considered as one component. Every input connectedto the TS must be rated to the maximum TS voltage.",
+                            "id": "EV4.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All components must be rated for the maximum possible temperature that may occur duringusage.",
+                            "id": "EV4.1.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Fans with >50 W power must not be connected to the TS.",
+                            "id": "EV4.1.4",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Enclosures",
+                    "id": "EV4.2",
+                    "subsections": [
+                        {
+                            "content": " TS enclosures, see EV1 .1.2, must be labeled with (a) reasonably sized sticker(s) accordingto \u201cISO 7010-W012\u201d (triangle with a black lightning bolt on a yellow background). Thesticker must also contain the text \u201cHigh V oltage\u201d if the voltage is more than 60 VDC or50 VACRMS.",
+                            "id": "EV4.2.1",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Separation of Traction System and Grounded Low Voltage System",
+                    "id": "EV4.3",
+                    "subsections": [
+                        {
+                            "content": " The entire TS and LVS must be galvanically isolated, see EV1.2.1 and IN4.1.1.",
+                            "id": "EV4.3.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All connections from a TS component to external devices, such as laptops must includegalvanic isolation, see EV1.2.1.",
+                            "id": "EV4.3.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS and LVS circuits must be physically segregated such that they are not running throughthe same conduit or connector, except for interlock circuit connections.",
+                            "id": "EV4.3.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Where both TS and LVS are present within an enclosure, they must be separated by barriersmade of moisture-resistant insulating materials or maintain the following spacing throughthe air, or over a surface:V oltage SpacingU<100 VDC 10 mm100 VDC < U <200 VDC 20 mmU>200 VDC 30 mm",
+                            "id": "EV4.3.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Components and cables capable of movement must be positively restrained to maintainspacing.",
+                            "id": "EV4.3.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " If TS and LVS are on the same PCB, they must be on separate well-defined areas of theboard, meeting the spacing requirements in table 5, each area clearly marked with \u201cTS\u201d or\u201cLV\u201d. The outline of the area required for spacing must be marked.\u201cConformal coating\u201d refers to a coating insulator, solder resist is not a coating.V oltage Over SurfaceThrough Air(Cut in board)Conformal Coating0 VDC to 50 VDC 1 .6 mm 1 .6 mm 1 .0 mm50 VDC to 150 VDC 6 .4 mm 3 .2 mm 2 .0 mm150 VDC to 300 VDC 9 .5 mm 6 .4 mm 3 .0 mm300 VDC to 600 VDC 12 .7 mm 9 .5 mm 4 .0 mmTable 5: Spacing required between TS and LV.",
+                            "id": "EV4.3.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Teams must be prepared to demonstrate spacing on team-built equipment. For inaccessiblecircuitry, fully assembled spare boards must be available.",
+                            "id": "EV4.3.7",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Positioning of Tractive System Parts",
+                    "id": "EV4.4",
+                    "subsections": [
+                        {
+                            "content": " Except what is permitted according to EV4 .4.3, all parts belonging to the TS includingcables and wiring must be located within the rollover protection envelope, see T1.1.16. \u201cPart\u201dis the whole device such as the complete HVD.",
+                            "id": "EV4.4.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Any part of the TS that is less than 350 mm above the ground must be protected from impacts,seeT3.15, and must follow T3.16 when having bolted attachments. TS wiring in front of thefront hoop may alternatively be shielded by the front bulkhead support structure according toT3.14.",
+                            "id": "EV4.4.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Outboard wheel motors are allowed only if\u2022an interlock is routed along the TS wiring such that the SDC, see EV6 , is openedbefore the TS wiring or its clamping fails\u2022an interlock is routed along a suspension member such that the SDC, see EV6 , isopened if the suspension fails\u2022TS wiring is not able to reach the cockpit opening or the driver regardless of where itbreaks\u2022 wiring outside of the rollover protection envelope, see T1.1.16 is minimum length\u2022wiring outside of an impact structure or front bulkhead support structure, see EV4 .4.2,is minimum length\u2022 Minimum length is the shortest distance plus extra wiring caused by bending radius.",
+                            "id": "EV4.4.3",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Insulation, Wiring, and Conduit",
+                    "id": "EV4.5",
+                    "subsections": [
+                        {
+                            "content": " All live parts of the TS must be protected from being touched. This must include teammembers working on or inside the vehicle. This is tested with a 100 mm long, 6 mm diameterinsulated test probe when the TS enclosures are in place.",
+                            "id": "EV4.5.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Insulation material that is rated for the maximum TS voltage must be used. Using onlyinsulating tape or rubber-like paint for insulation is prohibited.",
+                            "id": "EV4.5.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The temperature rating for TS wiring, connections, and insulation must be appropriate forthe expected surrounding temperatures but at least 85\u25e6C.",
+                            "id": "EV4.5.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS components and containers must be protected from moisture in the form of rain orpuddles, see IN9.",
+                            "id": "EV4.5.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " It must be possible to clearly assign and prove the wire gauge, temperature rating, andinsulation voltage to each used wire.",
+                            "id": "EV4.5.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All TS wiring must be completed to professional standards with appropriately sized con-ductors and terminals and with adequate strain relief and protection from loosening due tovibration etc.",
+                            "id": "EV4.5.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS wiring must be located out of the way of possible snagging or damage.",
+                            "id": "EV4.5.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All TS wiring that runs outside of TS enclosures must:\u2022Be enclosed in separate orange non-conductive conduit or use an orange shieldedcable. The conduit must be securely anchored to the vehicle, but not to the wire, atleast at each end.\u2022Be securely anchored at least at each end so that it can withstand a force of 200 Nwithout straining the cable end crimp.Bodywork is not sufficient to meet this enclosure requirement.",
+                            "id": "EV4.5.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Any shielded cable must have the shield grounded.",
+                            "id": "EV4.5.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Every TS connector outside of a housing must include a pilot contact/interlock line which ispart of the SDC. Housings only used to avoid interlocks are prohibited.",
+                            "id": "EV4.5.10",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All TS connections must be designed so that they use intentional current paths throughconductors such as copper or aluminum and must not rely on steel bolts to be the primaryconductor.",
+                            "id": "EV4.5.11",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All TS connections must not include compressible material such as plastic in the stack-up oras a fastener. FR-4 is allowed.",
+                            "id": "EV4.5.12",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS connectors outside of TS enclosures must be designed in a way, that the TS cannot beactivated, see EV4.11, if connected in any way other than the design intent configuration.",
+                            "id": "EV4.5.13",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All electrical connections, including bolts, nuts, and other fasteners, in the high current pathof the TS must be secured from unintentional loosening. Fasteners must use positive lockingmechanisms, see T10.2, that are suitable for high temperatures, see EV4.5.3.Components, e.g. inverters, certified for automotive use might be allowed without a posi-tive locking feature if connections are completed as recommended by the manufacturers\u2019datasheet and no positive locking is possible.",
+                            "id": "EV4.5.14",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Teams must be prepared to demonstrate positive locking. For inaccessible connections,appropriate photographs must be available.",
+                            "id": "EV4.5.15",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Soldered connections in the high current path are only allowed if all of the following are true:\u2022 connections on PCBs\u2022 the connected devices are not cells or wires\u2022 the devices are additionally mechanically secured against loosening",
+                            "id": "EV4.5.16",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Data Logger",
+                    "id": "EV4.6",
+                    "subsections": [
+                        {
+                            "content": " A calibrated data logger will be provided by the officials and must be inserted during thecompetition. The data logger measures TS voltage and TS current.",
+                            "id": "EV4.6.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The data logger must be in an easily accessible location so that it is possible to insert, remove,or replace it within 15 min in ready-to-race condition.",
+                            "id": "EV4.6.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The data logger must not be placed within the TSAC.",
+                            "id": "EV4.6.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All current supplying the TS must run through the data logger. The data logger must beinserted in the negative TS supply between the most negative AIR(s) and the inverters.",
+                            "id": "EV4.6.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TS voltage sense connection of the data logger must be directly connected, see T1.3.1,to the most positive AIR(s) on the vehicle side.",
+                            "id": "EV4.6.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The data logger must be directly supplied, see T1.3.1, from the LVMS.",
+                            "id": "EV4.6.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The specification of the data logger will be available in the competition handbook.",
+                            "id": "EV4.6.7",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Measuring point",
+                    "id": "EV4.7",
+                    "subsections": [
+                        {
+                            "content": " Two TSMPs must be installed directly next to the master switches, see EV6.2.",
+                            "id": "EV4.7.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSMPs must be directly connected, see T1.3.1, to the intermediate circuit capacitorseven if the HVD has been opened or the TS accumulator is disconnected.",
+                            "id": "EV4.7.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": "EV4.7.3 4 mm shrouded banana jacks rated for 1000 V CAT III or better must be used.",
+                            "id": "EV4.7.34",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSMPs must be marked \u201cTS+\u201d and \u201cTS-\u201d and exclusively mounted on an orangebackground.",
+                            "id": "EV4.7.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSMPs must be protected by a non-conductive cover that can be opened without tools.The cover must always be mechanically linked to the vehicle.",
+                            "id": "EV4.7.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Each TSMP must be secured with a current limiting resistor according to the following table.Fusing the TSMPs is prohibited. The resistor\u2019s power rating must be chosen such that theycan continuously carry the current if both TSMPs are short-circuited.Maximum TS V oltage Resistor ValueUmax <200 VDC 5 k \u2126200 VDC <Umax \u2264400 VDC 10 k \u2126400 VDC <Umax \u2264600 VDC 15 k \u2126",
+                            "id": "EV4.7.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All electrical connections needed for TSMP, including bolts, nuts, and other fasteners, mustbe secured from unintentional loosening by the use of positive locking mechanisms. Boltedconnections must follow T10.2, soldered connections EV4.5.16.",
+                            "id": "EV4.7.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Next to the TSMPs an LVS ground measuring point must be installed. A 4 mm blackshrouded banana jack must be connected to LVS ground and must be marked \u201cGND\u201d.",
+                            "id": "EV4.7.8",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " High Voltage Disconnect",
+                    "id": "EV4.8",
+                    "subsections": [
+                        {
+                            "content": " It must be possible to disconnect at least one pole of the TS accumulator by quickly removingan unobstructed and directly accessible element, fuse, or connector. It must be possible todisconnect the HVD without removing any bodywork. The HVD must be above 350 mmfrom the ground. Remote actuation of the HVD through a long handle, rope, or wire is notpermitted.",
+                            "id": "EV4.8.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Any ESO must be able to remove the HVD within 10 swhen the vehicle is in ready-to-racecondition.",
+                            "id": "EV4.8.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " A dummy connector or similar may be required to restore the system\u2019s isolation, see EV4 .5.The dummy connector must be attached to the push bar, see T13.1, if not in use.",
+                            "id": "EV4.8.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The HVD must be clearly marked with \u201cHVD\u201d.",
+                            "id": "EV4.8.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " No tools must be necessary to open the HVD. An interlock is required, see EV4.5.10.",
+                            "id": "EV4.8.5",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Discharge Circuit",
+                    "id": "EV4.9",
+                    "subsections": [
+                        {
+                            "content": " If a discharge circuit is required to meet EV6 .1.5, it must be designed to handle the maximumTS voltage permanently.After three subsequent discharges within 15 sin total, the discharge time specified in EV6 .1.5may be exceeded. Full discharging functionality must be given after a reasonable time with adeactivated discharge circuit.",
+                            "id": "EV4.9.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The discharge circuit must be wired in a way that it is always active whenever the SDCis open. Furthermore, the discharge circuit must be fail-safe such that it still dischargesthe intermediate circuit capacitors if the HVD has been opened or the TS accumulator isdisconnected.",
+                            "id": "EV4.9.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Fusing of the discharge main current path is prohibited.",
+                            "id": "EV4.9.3",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Active Light",
+                    "id": "EV4.10",
+                    "subsections": [
+                        {
+                            "content": " The vehicles must include a single TSAL that must indicate the TS status. The TSAL mustnot perform any other functions. A TSAL with multiple LEDs in one housing is allowed.",
+                            "id": "EV4.10.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL itself must have a red light, flashing continuously with a frequency between 2 Hzand5 Hz and a duty cycle of 50 % , active if and only if the LVS is active and the voltageacross any DC-link capacitor exceeds\u2022 60 VDC or 50 VACRMS\u2022 Half the nominal TS voltagewhichever is lower.",
+                            "id": "EV4.10.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL itself must have a green light, continuously on, active if and only if the LVS isactive and ALL of the following conditions are true:\u2022 All AIRs are opened.\u2022 The pre-charge relay, see EV5.7.2, is opened.\u2022The voltage at the vehicle side of the AIRs inside the TSAC does not exceed 60 VDCor 50 VACRMS.",
+                            "id": "EV4.10.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The mentioned voltage detection must be performed inside the respective TS enclosure.",
+                            "id": "EV4.10.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The mentioned states of the relays (opened/closed) are the actual mechanical states. Themechanical state can differ from the intentional state, i.e. if a relay is stuck. Any circuitrydetecting the mechanical state must meet EV5.6.2.",
+                            "id": "EV4.10.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The voltage detection circuit of the red light and the relay state and voltage detection circuitof the green light must be independent. Any plausibility check between both lights is notallowed. A TSAL state with both lights simultaneously active might occur and must not beprevented.",
+                            "id": "EV4.10.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL must:\u2022Be located lower than the highest point of the main hoop and including the mountingwithin the rollover protection envelope, see T1.1.16.\u2022 Be no lower than 75 mm from the highest point of the main hoop.\u2022 Not be able to contact the driver\u2019s helmet in any circumstances.",
+                            "id": "EV4.10.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The entire illuminated surface of the TSAL must be clearly visible:\u2022 Except for angles less than 10\u25e6on each side which are blocked by the main hoop.\u2022From a point 1.60 m vertically from ground level, within 3 mhorizontal radius fromthe TSAL.\u2022 In direct sunlight.",
+                            "id": "EV4.10.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL and all needed circuitry must be hard-wired electronics. Software control is notpermitted.",
+                            "id": "EV4.10.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " A green indicator light in the cockpit that is easily visible even in bright sunlight and clearlymarked with \u201cTS off\u201d must light up if TSAL green light is on, see EV4.10.3.",
+                            "id": "EV4.10.10",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Signals influencing the TSAL and the indicator according to EV4 .10.10 are SCS, see T11.9.The individual safe state of each of the TSAL lights is off. The TSAL has an active indicationof the absence of failures (continuous green illumination) and thus the red light must not beilluminated for a visible check, see T11.9.6.",
+                            "id": "EV4.10.11",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL\u2019s red light voltage detection circuit, see EV4 .10.2, does not need to detect anopen circuit, as required by T11.9, when no voltage is present. A plausibility check must notbe implemented.",
+                            "id": "EV4.10.12",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL\u2019s green light relay state detection circuit, see EV4 .10.3, does not need to detect anopen circuit, as required by T11.9, when the intentional state of the used (auxiliary) contactis opened. A plausibility check against the intentional relay state must be implemented in away that the TSAL\u2019s green light stays off after the open circuit is detectable.",
+                            "id": "EV4.10.13",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAL\u2019s green light voltage detection circuit, see EV4 .10.3, does not need to detect anopen circuit, as required by T11.9, when no voltage is present. A plausibility check againstthe intentional relay states must be implemented in a way that the TSAL\u2019s green light staysoff after the open circuit of the accumulator voltage detection circuit is detectable.",
+                            "id": "EV4.10.14",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The latching required by EV4 .10.13 and EV4 .10.14 must not be triggered during normaloperation conditions and must only be reset by power cycling the LVS.",
+                            "id": "EV4.10.15",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Activating the Tractive System",
+                    "id": "EV4.11",
+                    "subsections": [
+                        {
+                            "content": " The TS is active if any of the AIRs or the pre-charge relay is closed.",
+                            "id": "EV4.11.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The driver must be able to activate and deactivate the TS from within the cockpit without theassistance of any other person.",
+                            "id": "EV4.11.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The ASR must be able to activate the TS from outside the vehicle with an external TSactivation button in proximity to the TSMS if and only if the ASMS is in \u201cOn\u201d position.",
+                            "id": "EV4.11.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Closing the SDC by any part defined in EV6 .1.2 must not (re-)activate the TS. Additionalaction must be required.",
+                            "id": "EV4.11.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AS must not be able to (re-)activate the TS.",
+                            "id": "EV4.11.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The vehicle is in Ready-to-drive (R2D) mode as soon as the motor(s) will respond to theinput of the APPS.",
+                            "id": "EV4.11.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " After the TS has been activated, additional actions must be required by the driver to set thevehicle to R2D mode, e.g. pressing a dedicated start button. The transition to R2D modemust only be possible during the actuation of the mechanical brakes and a simultaneousdedicated additional action.",
+                            "id": "EV4.11.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The R2D mode must be left immediately when the SDC is opened.",
+                            "id": "EV4.11.8",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Ready-To-Drive Sound",
+                    "id": "EV4.12",
+                    "subsections": [
+                        {
+                            "content": " The vehicle must make a characteristic sound, continuously for at least 1 sand a maximumof 3 s while entering R2D mode.",
+                            "id": "EV4.12.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The sound level must be a minimum of 80 dBA and a maximum of 90 dBA , fast weightingin a radius of 2 m around the vehicle.",
+                            "id": "EV4.12.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The used sound must be easily recognizable. No animal voices, song parts, or sounds thatcould be interpreted as offensive will be accepted.",
+                            "id": "EV4.12.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The vehicle must not make any other sounds similar to the R2D sound.",
+                            "id": "EV4.12.4",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 5 T RACTIVE SYSTEM ENERGY STORAGE",
+            "id": "EV5",
+            "subsections": [
+                {
+                    "content": " Definitions",
+                    "id": "EV5.1",
+                    "subsections": [
+                        {
+                            "content": " Cell \u2013 a battery cell or super-capacitor.",
+                            "id": "EV5.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Cell Energy \u2013 the maximum cell voltage times the nominal capacity of the used cell.",
+                            "id": "EV5.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS Accumulator \u2013 all cells that store the electrical energy to be used by the TS as a whole.",
+                            "id": "EV5.1.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Tractive System Accumulator Container (TSAC) \u2013 the container itself, which contains theTS accumulator.",
+                            "id": "EV5.1.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " TS Accumulator Segments \u2013 sub-divisions of the TS accumulator.",
+                            "id": "EV5.1.5",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Allowed Tractive System Cells",
+                    "id": "EV5.2",
+                    "subsections": [
+                        {
+                            "content": " All types of cells except molten salt and thermal batteries are allowed.",
+                            "id": "EV5.2.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Fuel cells are prohibited.",
+                            "id": "EV5.2.2",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Energy Storage \u2013 General Requirements",
+                    "id": "EV5.3",
+                    "subsections": [
+                        {
+                            "content": " All cells that store the TS energy must be enclosed in (a) TSAC(s).",
+                            "id": "EV5.3.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Each TS accumulator segment must not exceed a maximum static voltage of 120 VDC , amaximum energy of 6 MJ, see EV5.1.2, and a maximum mass of 12 kg.",
+                            "id": "EV5.3.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " If spare TS accumulators are used, they must be of the same size, weight, and type as thosethat are replaced.",
+                            "id": "EV5.3.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Spare cells must be stored in an electrically insulated container made of fire retardant material,see T1.2.1. The container must be labeled according to EV5.3.8.",
+                            "id": "EV5.3.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Spare accumulators and spare cells must be presented at technical inspection.",
+                            "id": "EV5.3.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " It must be possible to open the TSAC for technical inspection.",
+                            "id": "EV5.3.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Each TSAC must be removable from the vehicle while still remaining rules compliant withoutthe need to install extra components. A dummy connector or similar may be used to restorethe system\u2019s isolation, see EV4.5.",
+                            "id": "EV5.3.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The vehicle number, the university name, and the ESO phone number(s) must be displayedand written in Roman Sans-Serif characters of at least 20 mm high on the lid of each TSAC.The characters must be clearly visible and placed on a high-contrast background.",
+                            "id": "EV5.3.8",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Energy Storage \u2013 Electrical Configuration",
+                    "id": "EV5.4",
+                    "subsections": [
+                        {
+                            "content": " If the TSAC is made from an electrically conductive material, the insulation barrier must beadequately protected against conductive penetrations.",
+                            "id": "EV5.4.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Every TSAC must contain at least one fuse and at least two AIRs, see EV5.6 and EV3.2.7.",
+                            "id": "EV5.4.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " LVS must not be included in the TSAC except where inherently required. Exceptionsinclude the AIRs, TS DC/DC converters, the Accumulator Management System (AMS), theInsulation Monitoring Device (IMD), the TSAL\u2019s green light circuitry, and cooling fans.",
+                            "id": "EV5.4.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Maintenance plugs must allow electrical separation of all TS accumulator segments, see",
+                            "id": "EV5.4.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Maintenance plugs must:\u2022 Not require tools to separate the TS accumulator segments.\u2022 Be non-conductive on surfaces that do not provide any electrical connection.\u2022Be designed in a way, that it is physically impossible to electrically connect them inany way other than the design intent configuration.\u2022 Be protected against accidental reconnection.\u2022Be designed such that it is clearly visible whether the connection is open or closed.Electrically controlled switches must not be used.",
+                            "id": "EV5.4.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Each TS accumulator segment must be electrically insulated by the use of suitable rigidand fire retardant material, see T1.2.1, between the segments and on top of the segment toprevent arc flashes caused by inter-segment contact or by parts/tools accidentally falling intothe TSAC during maintenance.",
+                            "id": "EV5.4.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Every wire used in a TSAC, regardless of whether it is part of the LVS or TS, must be ratedto the maximum TS voltage.",
+                            "id": "EV5.4.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Each TSAC must have a prominent indicator, a voltmeter, or a red LED visible even in brightsunlight that will illuminate whenever a voltage greater than 60 VDC or half the maximumTS voltage, whichever is lower, is present at the vehicle side of the AIRs.",
+                            "id": "EV5.4.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The indicator must be clearly visible while disconnecting the TSAC from the vehicles. Theindicator must be clearly marked with \u201cV oltage Indicator\u201d",
+                            "id": "EV5.4.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The indicator must be hard-wired electronics without software control, directly and onlysupplied by the TS from the vehicle side of the AIRs, and always working, even if theaccumulator is disconnected from the LVS or removed from the vehicle.",
+                            "id": "EV5.4.10",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Energy Storage \u2013 Mechanical Configuration",
+                    "id": "EV5.5",
+                    "subsections": [
+                        {
+                            "content": " All TSACs must lie within and be attached to the primary structure or any additionalstructures fixed to the primary structure that meet the minimum specification for impactstructures, see T3.2, no higher than the top of the impact structure, see T3.15.",
+                            "id": "EV5.5.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC(s) must be protected from impacts, see T3.15, and must follow T3.16 whenhaving bolted attachments. The TSAC must not be part of this structure.",
+                            "id": "EV5.5.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All TSAC materials as well as all structural parts used to comply with EV5 .5.8 must be fireretardant, see T1.2.1. All calculations must be conducted for an ambient temperature of60\u25e6C except for metallic materials and continuous fiber-reinforced laminates.",
+                            "id": "EV5.5.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC(s) must be constructed of steel or aluminum. With the following requirements:\u2022The bottom of the TSAC must be at least 1.25 mm thick if made from steel or 3.2 mmif made from aluminum.\u2022The internal and external vertical walls, covers, and lids must be at least 0.9 mm thickif made from steel or 2 .3 mm if made from aluminum.Alternative materials are allowed with proof of equivalency per T3.3 or for compositematerials per EV5 .5.5. This must be documented in the SES. When alternative materials areused, test samples must be presented at technical inspection.",
+                            "id": "EV5.5.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Composite TSAC(s) must satisfy the following requirements:\u2022Data obtained from the laminate perimeter shear strength test and three-point bendingtest, see T3.5, should be used to prove adequate strength is provided.\u2022Each attachment point requires steel backing plates with a minimum thickness of2 mm . Alternate materials may be used for backing plates if equivalency is approved.\u2022 The calculations and physical test results must be included in the SES.",
+                            "id": "EV5.5.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC must consist of electrically insulating internal vertical walls with a minimumof75 % of the height of the external vertical walls, that divide the TSAC into sections of amaximum of 12 kg. These walls must not divide any accumulator segment, see EV5.3.2.",
+                            "id": "EV5.5.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The accumulator segments, see EV5 .3.2, must be separated by a rigid, electrically insulating,and fire retardant barrier, see T1.2.1.",
+                            "id": "EV5.5.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC itself, the mounting of the TSAC to the chassis, and the mounting of each cell tothe TSAC must be designed to withstand the following accelerations:\u2022 40 g in the longitudinal direction (forward/aft)\u2022 40 g in the lateral direction (left/right)\u2022 20 g in the vertical direction (up/down)Calculations and/or tests must be documented in the SES. All considered TSAC attachmentpoints must follow EV5 .5.13. TSAC(s) made of materials as stated in EV5 .5.4 or EV5 .5.5may need further reinforcement to comply with this rule.",
+                            "id": "EV5.5.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Pouch cells must be fixed using at least 80 % of each large surface. Tabs of pouch cells mustnot carry mechanical loads and must not press into the pouch.",
+                            "id": "EV5.5.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Friction-based cell mounting requires physical testing and must be documented in the SES.Mechanically representative test cells or cell mockups can be used for testing.",
+                            "id": "EV5.5.10",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All fasteners used within or to mount the TSAC must comply with T10. Fasteners within theaccumulator used for non-structural accumulator parts (e.g. PCBs etc.) do not have to followT10.1.2. Fasteners made of electrically non-conductive material within the accumulator usedfor non-structural accumulator parts do not have to follow T10.",
+                            "id": "EV5.5.11",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AIRs and the main fuse, see EV3 .2.7, must be separated with an electrically insulatedand fire retardant material, see T1.2.1, from the TS accumulator, see EV5 .1.3. Air is notconsidered to be a suitable insulation material in this case.",
+                            "id": "EV5.5.12",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Any brackets used to mount the TSAC must be made of steel 1.6 mm thick or aluminum4 mm thick and must have gussets to carry bending loads. Each attachment point includingbrackets, backing plates, and inserts, must be able to withstand 20 kN in any direction.",
+                            "id": "EV5.5.13",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Holes, both internal and external, in the TSAC, are only allowed for the wiring harness,ventilation, cooling, or fasteners. The TSAC must still be compliant with all other rules,especially the ones concerning its structural requirements. The total cutout area must bebelow 25 % of the respective single wall. External holes must be sealed according to EV4 .5.",
+                            "id": "EV5.5.14",
+                            "subsections": []
+                        },
+                        {
+                            "content": " External openings in the TSAC or mounted ducts must not point toward the driver or theoperator of the accumulator hand cart even though there is a firewall, see T4.8, in between.Ducts and their mounting must be fire retardant, see T1.2.1, and properly sealed.",
+                            "id": "EV5.5.15",
+                            "subsections": []
+                        },
+                        {
+                            "content": " A sticker according to \u201cISO 7010-W012\u201d (triangle with a black lightning bolt on a yellowbackground) with the triangle side length of at least 100 mm and the text \u201cAlways Energized\u201dmust be applied on every TSAC. The sticker must also contain the text \u201cHigh V oltage\u201d if thevoltage is more than 60 VDC or 50 VACRMS.",
+                            "id": "EV5.5.16",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Any TS accumulators that may vent an explosive gas must have a ventilation system toprevent the vented gas from reaching an explosive concentration.",
+                            "id": "EV5.5.17",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Every TSAC which is completely sealed must also have a pressure relief valve to preventhighpressure in the TSAC.",
+                            "id": "EV5.5.18",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The design of the TSAC and its contents must be documented in the SES including materialsused, drawings, images, fastener locations, segment weight, cell, and segment position.",
+                            "id": "EV5.5.19",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Accumulator Isolation Relays",
+                    "id": "EV5.6",
+                    "subsections": [
+                        {
+                            "content": " At least two AIRs must be fitted inside each TSAC.",
+                            "id": "EV5.6.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AIRs must open both poles of the TS accumulator. If the AIRs are open, no TS voltagemay be present outside of the TSAC and the vehicle side of the AIRs must be galvanicallyisolated from the accumulator side, see EV1.2.1.",
+                            "id": "EV5.6.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AIRs must be mechanical relays of a \u201cnormally open\u201d type.",
+                            "id": "EV5.6.3",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Pre-Charge Circuit",
+                    "id": "EV5.7",
+                    "subsections": [
+                        {
+                            "content": " A circuit that ensures that the voltage at the vehicle side of the AIRs is pre-charged to atleast 95 % of the actual TS accumulator voltage before closing the second AIR must beimplemented.",
+                            "id": "EV5.7.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The pre-charge circuit must use a mechanical, normally open relay. All pre-charge currentmust pass through this relay.",
+                            "id": "EV5.7.2",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Accumulator Management System",
+                    "id": "EV5.8",
+                    "subsections": [
+                        {
+                            "content": " Each TS accumulator must be monitored by an AMS whenever the LVS is active or theaccumulator is connected to a charger.",
+                            "id": "EV5.8.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Every TSAC must contain its full AMS including its own and AMS exclusive SDC powerstage, see EV6.1",
+                            "id": "EV5.8.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AMS must continuously measure\u2022 all cell voltages\u2022 the TS current\u2022 the temperature of thermally critical cells\u2022for lithium-based cells: the temperature of at least 30 % of the cells equally distributedwithin the TSAC(s)",
+                            "id": "EV5.8.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Cell temperature must be measured at the negative terminal of the respective cell. Thesensor used must be in direct contact with the electrically exposed negative terminal orless than 10 mm along the high current path away from the terminal in direct contact withthe respective busbar. It is acceptable to monitor multiple cells with one sensor if thisrequirement is met for all cells sensed by the sensor.",
+                            "id": "EV5.8.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The maximum cell temperature is 60\u25e6Cor the limit stated in the cell data sheet, whicheveris lower.",
+                            "id": "EV5.8.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " An independent cell temperature monitoring device may be provided by the officials duringaccumulator inspection and must be installed, see IN3.The device must be placed on the warmest negative cell terminal of the TSAC and in directcontact with the terminal or less than 30 mm away from it on the busbar.",
+                            "id": "EV5.8.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AMS must switch off the TS via the SDC, if a critical voltage, temperature, or currentvalue according to the cell manufacturer\u2019s datasheet or these rules persistently occurs formore than:\u2022 500 ms for voltage and current values\u2022 1 s for temperature valuesThe accuracy, noise, and sample rate of the measurement must be taken into account.",
+                            "id": "EV5.8.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " AMS cell voltage measurement inputs, temperature measurement inputs, and supply voltageof decentralized AMS slaves may be rated below the maximum TS voltage if the team hasproven by calculations in the Electrical System Form (ESF), see EV9 , that the input voltagerating is reasonably chosen.",
+                            "id": "EV5.8.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " A red indicator light in the cockpit that is easily visible from inside and outside the cockpiteven in bright sunlight and clearly marked with the lettering \u201cAMS\u201d must light up if and onlyif the AMS opens the SDC. It must stay illuminated until the error state has been manuallyreset, see EV6.1.6. Signals controlling this indicator are SCS, see T11.9.",
+                            "id": "EV5.8.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " AMS signals are System Critical Signals, see T11.9.",
+                            "id": "EV5.8.10",
+                            "subsections": []
+                        },
+                        {
+                            "content": " It must be possible to individually disconnect the current sensor, one temperature sensor, andone cell voltage measurement wire during technical inspection if any wire is used.",
+                            "id": "EV5.8.11",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The AMS must be able to read and display all measured values according to EV5 .8.3 in asingle overview e.g. by connecting a laptop to the AMS.",
+                            "id": "EV5.8.12",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 6 S HUTDOWN CIRCUIT AND SYSTEMS",
+            "id": "EV6",
+            "subsections": [
+                {
+                    "content": " Shutdown Circuit",
+                    "id": "EV6.1",
+                    "subsections": [
+                        {
+                            "content": " The Shutdown Circuit (SDC) directly carries the power driving the AIRs, see EV5 .6, andthe pre-charge circuitry, see EV5.7.",
+                            "id": "EV6.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The SDC is defined as a series connection of at least two master switches, three shutdownbuttons, the BOTS, see T6.2, the IMD, the inertia switch, see T11.5, the BSPD, see T11.6,all required interlocks, and the AMS.An explanatory schematic of the required SDC, excluding any possible interlock circuitry, isshown in Figure 22.",
+                            "id": "EV6.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All parts of the SDC defined in EV6 .1.2 must be on the high-side connection of the AIRcoils and the pre-charge circuitry.BSPD IMD AMS Left Right CockpitInertia Switch BOTSHVDInterlockTSMSLVMSLV Supply(optional)Interlocksnormally closedElementnormally openElementLVBatteryShutdown Buttons100 mm max.OvercurrentProtectionAIR Coils(optional)Precharge CircuitryActivation Logic EBS Relay CoilRES ASFigure 22: Explanatory example schematic of the required Shutdown Circuit (SDC)",
+                            "id": "EV6.1.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The Tractive System Master Switch (TSMS), see EV6 .2, must be the last switch before theAIRs except for pre-charge circuitry and hardwired interlocks.",
+                            "id": "EV6.1.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " If the SDC is opened the TS must be shut down by opening all AIRs and the voltage in theTS must drop to below 60 VDC and50 VACRMS in less than 5 s. All accumulator currentflow must stop immediately.The action of opening the AIRs may be delayed by \u2264250 ms to signal the action to the motorcontrollers and reduce the TS current before the AIRs are opened. The AIR supply must beabruptly switched off before reaching the minimum AIR supply voltage.",
+                            "id": "EV6.1.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " If the SDC is opened by the AMS or the IMD, it has to be latched open by a non-programmable logic that can only be manually reset by a person at the vehicle who isnot the driver.",
+                            "id": "EV6.1.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All circuits that are part of the SDC must be designed in a way, that in the de-energized/disconnectedstate, they open the SDC.",
+                            "id": "EV6.1.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " It must be possible to demonstrate that all features of the SDC function correctly. Thisincludes all interlocks.",
+                            "id": "EV6.1.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Every system that is required to or can open the SDC must have its own, non-programmable,power stage to achieve this. The respective power stages must be designed to be able to carrythe SDC current, e.g. AIR inrush currents, and such that a failure cannot result in electricalpower being fed back into the electrical SDC.",
+                            "id": "EV6.1.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The shutdown buttons, the BOTS, the TSMS, and all interlocks must not act through anypower stage.",
+                            "id": "EV6.1.10",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All signals influencing the SDC are SCSs, see T11.9.",
+                            "id": "EV6.1.11",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Tractive System Master Switch",
+                    "id": "EV6.2",
+                    "subsections": [
+                        {
+                            "content": " An TSMS according to T11.2 must be part of the SDC, see EV6.1.2.",
+                            "id": "EV6.2.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSMS must be fitted with a \u201clockout/tagout\u201d capability to prevent accidental activationof the TS. The ESO must ensure that it is locked in the off position whenever work is doneon the vehicle or no ESO is present.",
+                            "id": "EV6.2.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSMS must be mounted in the middle of a completely orange circular area of \u226550 mmdiameter placed on a high contrast background.",
+                            "id": "EV6.2.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSMS must be marked with \u201cTS\u201d and a symbol according to \u201cISO 7010-W012\u201d (trianglewith a black lightning bolt on a yellow background).",
+                            "id": "EV6.2.4",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": " Insulation Monitoring Device",
+                    "id": "EV6.3",
+                    "subsections": [
+                        {
+                            "content": " Every vehicle must have an IMD installed in the TS system.",
+                            "id": "EV6.3.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The IMD must be a Bender A-ISOMETER\u00aeiso-F1 IR155-3203 or -3204, or a BenderISOMETER\u00aeiso165C-1, or equivalent IMD approved for automotive use. Equivalencymay be approved by the officials based on the following criteria: robustness to vibration,operating temperature range, IP rating, availability of a direct output, a self-test facility, andmust not be powered by the system that is monitored.",
+                            "id": "EV6.3.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The response value of the IMD must be set to \u2265500\u2126/V, related to the maximum TS voltage.",
+                            "id": "EV6.3.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The IMD must be connected on the vehicle side of the AIRs.",
+                            "id": "EV6.3.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " One IMD chassis ground measurement line must be connected to the grounded TSAC or therespective grounded enclosure of the IMD. The other chassis ground measurement line mustbe connected to the main hoop. Each connection must use a separate conductor, rated for atleast maximum TS voltage. An open circuit in any of these ground measurement connectionsmust result in an opened SDC.",
+                            "id": "EV6.3.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " In case of an insulation failure or an IMD failure, the IMD must open the SDC. This mustbe done without the influence of any programmable logic. See also EV6 .1.6 regarding there-activation of the TS after an insulation fault.",
+                            "id": "EV6.3.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " A red indicator light in the cockpit that is easily visible from inside and outside the cockpiteven in bright sunlight and clearly marked with the lettering \u201cIMD\u201d must light up if and onlyif the IMD opens the SDC. It must stay illuminated until the error state has been manuallyreset, see EV6.1.6. Signals controlling this indicator are SCS, see T11.9.",
+                            "id": "EV6.3.7",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 7 C HARGERS",
+            "id": "EV7",
+            "subsections": [
+                {
+                    "content": " Chargers General Requirements",
+                    "id": "EV7.1",
+                    "subsections": [
+                        {
+                            "content": " Only chargers presented and sealed at technical inspection are allowed. All connections ofthe charger(s) must be insulated and covered. No open connections are allowed.",
+                            "id": "EV7.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " Exposed conductive parts and the TSAC must be connected to protective earth (PE).",
+                            "id": "EV7.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All components interfacing with mains must be accredited to a recognized standard e.g. CE.All remaining parts must comply with all electrical requirements for the vehicle TS, e.g.",
+                            "id": "EV7.1.3",
+                            "subsections": []
+                        }
+                    ]
+                },
+                {
+                    "content": ", EV3.1, and EV4.2.",
+                    "id": "EV4.3",
+                    "subsections": [
+                        {
+                            "content": " TS charging leads must be orange.",
+                            "id": "EV7.1.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " When charging, the AMS must be live and must be able to turn off the charger if a fault isdetected.",
+                            "id": "EV7.1.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The charger must include a push-type emergency stop button which has a minimum diameterof 24 mm and must be clearly labeled.",
+                            "id": "EV7.1.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " When charging the accumulator, an IMD as described in EV6 .3 must be active and must beable to shut down the charger. Either the charger must incorporate an active IMD or an activeIMD must be within the accumulator. Other than stated in EV6 .3, the second chassis groundmeasurement line must be connected to the casing of the charger instead of the main hoop.",
+                            "id": "EV7.1.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " An IMD indicator light as defined in EV6.3.7 must be available during charging.",
+                            "id": "EV7.1.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The charger must include TSMPs as described in EV4 .7. Other than stated, the TSMPs mustbe connected to the TS output of the charger.",
+                            "id": "EV7.1.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " All indicators, switches, buttons, and connectors of the charger must be labeled.",
+                            "id": "EV7.1.10",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 8 T RACTIVE SYSTEM ACCUMULATOR CONTAINER HAND CART",
+            "id": "EV8",
+            "subsections": [
+                {
+                    "content": " Tractive System Accumulator Container Hand Cart",
+                    "id": "EV8.1",
+                    "subsections": [
+                        {
+                            "content": " A hand cart(s) must be used for transporting the TSAC(s) around the competition site.",
+                            "id": "EV8.1.1",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The hand cart must have at least four wheels.",
+                            "id": "EV8.1.2",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The hand cart must have a brake that is always on and only released if someone pushes thehandle, or similar.",
+                            "id": "EV8.1.3",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The brake must be capable of safely stopping the fully loaded hand cart.",
+                            "id": "EV8.1.4",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The hand cart must be able to carry the load of the TSAC(s).",
+                            "id": "EV8.1.5",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The hand cart must provide a firewall to protect the person while moving the hand cart. Thefirewall must have the same width as the hand cart, start at the lowest point of the hand cartexcluding the wheels, and be at least 30 cm higher than the hand cart handle and the TSAC.The firewall must be made from a rigid, fire retardant material, see T1.2.1, and be transparentfrom 1 .3 m above the ground.",
+                            "id": "EV8.1.6",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC(s) must be mechanically fixed to the hand cart to enable safe transportation.",
+                            "id": "EV8.1.7",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC(s) must not protrude the hand cart.",
+                            "id": "EV8.1.8",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The TSAC(s) must be protected from vibrations and shocks during normal operation of thecart, e.g. by the use of air tires.",
+                            "id": "EV8.1.9",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The hand cart itself must have a label according to EV5 .3.8 on the non-transparent sectionof its firewall facing the hand cart handle.",
+                            "id": "EV8.1.10",
+                            "subsections": []
+                        },
+                        {
+                            "content": " The overall floor space used by the fully loaded hand cart must not exceed 1200 mm x800 mm . If the TSAC is larger than the allowed floor space, exceptions may be approved bythe officials before the competition.",
+                            "id": "EV8.1.11",
+                            "subsections": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "content": "EV 9 E LECTRICAL SYSTEM FORM",
+            "id": "EV9",
+            "subsections": [
+                {
+                    "content": " Electrical System Form",
+                    "id": "EV9.1",
+                    "subsections": []
+                }
+            ]
+        }
+    ]
+}
